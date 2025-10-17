@@ -1,0 +1,28 @@
+ #a{
+        display:inline-block;
+        gap:20px;
+        text-align:center;
+        background-color: rgba(58, 70, 234, 0.19);
+        color:black;
+        font-size: 30px;
+        margin: 20px;
+ }
+
+        img{
+       filter: drop-shadow(20px 20px 40px chartreuse); 
+        }
+    
+   #s{
+       margin-top: 80px;
+    text-align: center;
+    background-color:azure;
+    font-size: 30px;
+   }
+   body{
+       border: 5px solid black;
+       
+   }
+   #u{
+    text-align: center;
+    font-size: 30px;
+}

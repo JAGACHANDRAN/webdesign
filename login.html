@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+         <style>
+        h1{
+            color: black;
+           text-decoration: underline;
+            width: 600px;
+            font-size: 25px;
+            }
+        .kr{
+            display: block;
+            min-width: 48%;
+ margin-bottom: 10px;
+        }
+             
+            
+    
+            
+            #q{
+                box-sizing: border-box;
+                border: 2px solid black ;
+                background-color: gray;
+                padding: 40px;
+                
+
+               
+            }
+            body{
+                margin: 10px;
+                padding: 150px;
+                margin-left: 60px;
+                
+            }
+            .jc{
+                width: 400px;
+                height:  40px;
+               border: 4px solid red;
+               border-radius: 10px;
+               
+                font-size: 20px;
+                margin: 10px;
+                color: white;
+                
+            }
+                
+            form{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                max-width: 600px;
+                width: 100%;
+                height: 250px;
+                padding: 3opx;
+                
+               
+               
+            }
+            .lc{
+                cursor: pointer;
+            }
+           
+        
+        
+        
+       
+    </style>
+</head>
+<body>
+   
+    <div id="q">
+    <h1>LOGIN</h1>
+    <p>"Welcome back! Log in to explore new styles, revisit your wishlist, and shop your favorites with just a click."</p>
+    <form>
+        <label class="kr" for="usename">USERNAME</label>
+        <input class="jc" type="text" name="username" placeholder="enter your username"><br><br>
+        <label class="kr" for="phone no">MOBILE NO</label>
+        <input class="jc" type="tel" name="mobile no" placeholder="enter your mobile no."><br><br>
+        <button class="lc" onclick="alert('OTP IS SENT')">SEND OTP</button><br><br>
+        <label class="kr" for="otp">ENTER YOUR OTP</label>
+        <input  class="jc"type="tel" name="otp" placeholder="enter your otp"><br><br>
+        <input class="lc" type="submit">
+        
+    </form>
+    </div>
+</body>
+</html>
